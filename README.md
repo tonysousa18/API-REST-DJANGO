@@ -24,7 +24,7 @@ A API possui os seguintes endpoints disponíveis após iniciar o servidor:
 
 ## 🛠 Como Executar Localmente
 - Clone o repositório:
-git clone https://github.com/seu-usuario/books-api.git
+git clone https://github.com/tonysousa18/API-REST-DJANGO.git
 cd books-api
 
 - Crie um ambiente virtual:

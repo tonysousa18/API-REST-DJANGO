@@ -23,22 +23,22 @@ A API possui os seguintes endpoints disponíveis após iniciar o servidor:
 | DELETE | `/books/<id>/` | Remove um livro do acervo      |
 
 ## 🛠 Como Executar Localmente
--Clone o repositório:
+- Clone o repositório:
 git clone https://github.com/seu-usuario/books-api.git
 cd books-api
 
--Crie um ambiente virtual:
+- Crie um ambiente virtual:
 python -m venv venv
 source venv/bin/activate  # Linux/macOS
 venv\Scripts\activate     # Windows
 
 
--Instale as dependências:
+- Instale as dependências:
 pip install -r requirements.txt
 
--Execute as migrações:
+- Execute as migrações:
 python manage.py migrate
 
--Inicie o servidor de desenvolvimento:
+- Inicie o servidor de desenvolvimento:
 python manage.py runserver
 
